@@ -19,7 +19,7 @@ public class SharedObjectApp {
                 sharedObject.decrementCounter();
             });
             thread2.start();
-
+          ////////////////////////////////////////////////////////////
             Thread thread3 = new Thread(() -> {
 
                 sharedObject2.counter++;
